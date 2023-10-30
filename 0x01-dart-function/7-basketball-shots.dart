@@ -1,8 +1,8 @@
 int whoWins(Map<String, int> teamA, Map<String, int> teamB) {
   int pointsTeam(Map<String, int> team) {
     int points = team['Free throws']! * 1 +
-        team['2 pointer']! * 2 +
-        team['3 pointer']! * 3;
+        team['2 pointers']! * 2 +
+        team['3 pointers']! * 3;
 
     return points;
   }
